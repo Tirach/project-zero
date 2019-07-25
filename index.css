@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: whitesmoke;
+}
+
+#banner {
+    display: inline-block;
+    background: yellow;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: .75em;
+    width: 95%
+}
+
+ul {
+    background: yellow;
+    padding-bottom: 1em;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 1em;
+    margin-right: 2em;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.container {
+    color: white;
+    display: flex;
+    padding: 3.5em;
+    margin: 3.5em;
+    margin-left: auto;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.container h2 {
+    background-color: rgba(32, 32, 32, 0.603);
+    color: white;
+}
+
+/* Apply border radius once I find proper syntax */
+
+.container-1 {
+    background-color: black;
+    border: 1px dotted black;
+    border-radius: ;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.container-2 {
+    background-color: black;
+    border: 1px dotted black;
+    border-radius: ;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.container-3 {
+    background-color: black;
+    border: 1px dotted black;
+    border-radius: ;
+    flex-direction: column;
+    /* overflow scroll, figure out scroll bar stlying */
+}
+
+footer {
+    background-color: gray;
+    margin-left: 2.5em;
+}
+
+footer a {
+    display: inline-block;
+    padding: 1em;
+    text-decoration: none;
+    
+}
+
+#social-one {
+margin-right: .4em;
+}
+
+#social-two {
+margin-right: .95em;
+}
+
+#social-three {
+margin-right: .6em;
+}
+
+#social-four {
+/* I don't know what should be here */
+}
