@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: whitesmoke;
+    background: white;
 }
 
 #banner {
@@ -42,12 +42,10 @@ li a {
     color: white;
 }
 
-/* Apply border radius once I find proper syntax */
-
 .container-1 {
     background-color: black;
     border: 1px dotted black;
-    border-radius: ;
+    border-radius: 5px;
     flex-direction: column;
     margin-right: 20px;
 }
@@ -55,7 +53,7 @@ li a {
 .container-2 {
     background-color: black;
     border: 1px dotted black;
-    border-radius: ;
+    border-radius: 5px;
     flex-direction: column;
     margin-right: 20px;
 }
@@ -63,14 +61,14 @@ li a {
 .container-3 {
     background-color: black;
     border: 1px dotted black;
-    border-radius: ;
+    border-radius: 5px;
     flex-direction: column;
     /* overflow scroll, figure out scroll bar stlying */
 }
 
 footer {
     background-color: gray;
-    margin-left: 2.5em;
+    
 }
 
 footer a {
@@ -81,17 +79,21 @@ footer a {
 }
 
 #social-one {
+text-decoration: none;
 margin-right: .4em;
+margin-left: 2.5em;
 }
 
 #social-two {
 margin-right: .95em;
+text-decoration: none;
 }
 
 #social-three {
 margin-right: .6em;
+text-decoration: none;
 }
 
 #social-four {
-/* I don't know what should be here */
+text-decoration: none;
 }
