@@ -1,0 +1,78 @@
+body,
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url(../images/bees-image-two.jpg);
+  background-size: cover;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  background: #e7de9d;
+  width: 100vw;
+  position: absolute;
+  padding-bottom: 1.5vh;
+  top: 0;
+  left: 0;
+}
+
+.active {
+  border: 2px solid #171c20;
+  border-radius: 5em;
+  box-shadow: 0.2em 0.2em 0.2em #171c20;
+  padding: 0.4em;
+}
+
+nav a {
+  color: #171c20;
+  margin: 3vw;
+  text-decoration: none;
+}
+
+.container {
+  color: #d9dddc;
+  opacity: 75%;
+  display: grid;
+  justify-items: center;
+  justify-content: space-around;
+  grid-template-columns: auto auto auto;
+  text-align: left;
+  margin-top: 25vh;
+}
+
+.container h2 {
+  width: 20vw;
+}
+
+.container p {
+  width: 25vw;
+}
+
+.container-content {
+  background-color: #171c20;
+  opacity: 100%;
+  border: 20px dotted #171c20;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+footer {
+  background-color: #3a2d27;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+}
+
+footer a {
+  color: #d9dddc;
+  margin: 3vw;
+  text-decoration: none;
+}
