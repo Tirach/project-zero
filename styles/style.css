@@ -1,3 +1,5 @@
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* Style for ALL html pages */
 body,
 html {
   height: 100vh;
@@ -36,6 +38,26 @@ nav a {
   text-decoration: none;
 }
 
+footer {
+  background-color: #3a2d27;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+}
+
+footer a {
+  color: #d9dddc;
+  margin: 3vw;
+  text-decoration: none;
+}
+
+/* End style for ALL html pages */
+/* ---------------------------- */
+
+/* !!!!!!!!!!!!!!!!!!!! */
+/* Style for index.html */
+
 .container {
   color: #d9dddc;
   opacity: 75%;
@@ -44,7 +66,7 @@ nav a {
   justify-content: space-around;
   grid-template-columns: auto auto auto;
   text-align: left;
-  margin-top: 25vh;
+  margin-top: 35vh;
 }
 
 .container h2 {
@@ -63,16 +85,45 @@ nav a {
   margin-right: 20px;
 }
 
-footer {
-  background-color: #3a2d27;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100vw;
+/* End style for index.html */
+/* ------------------------ */
+
+/* !!!!!!!!!!!!!!!!!!!! */
+/* Style for about.html */
+
+#about {
+  display: flex;
+  margin-top: 15vh;
 }
 
-footer a {
-  color: #d9dddc;
-  margin: 3vw;
-  text-decoration: none;
+#about article h2 {
+  width: 30vmax;
 }
+
+#about article p {
+  width: 60vmin;
+}
+
+/* End style for about.html */
+/* ------------------------ */
+
+/* !!!!!!!!!!!!!!!!!!!!!! */
+/* Style for gallery.html */
+
+/* End style for gallery.html */
+/* -------------------------- */
+
+/* !!!!!!!!!!!!!!!!!!!!!! */
+/* Style for contact.html */
+
+#contact {
+  display: flex;
+  margin-top: 40vh;
+}
+
+#contact #container-1 {
+  padding: 50px;
+}
+
+/* End style for contact.html */
+/* -------------------------- */
